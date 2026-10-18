@@ -1,4 +1,5 @@
 # Made by Osm904 (me)
+import keyboard
 
 x = input("YouTube link: ")
 x = x.partition("=")
@@ -9,3 +10,5 @@ if(len(xtwo) == 3):
 else: #how would you ever fuck this up in any other way
     x = x[0] + "="
     print(x)
+keyboard.wait("Esc")
+quit()
